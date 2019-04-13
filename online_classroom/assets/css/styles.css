@@ -1,0 +1,237 @@
+.heading.main {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#trust-name {
+  font-family: 'Proza Libre', sans-serif;
+  font-style: italic;
+  font-size: 4vw;
+}
+
+#department-name {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 4vw;
+}
+
+.heading {
+  margin-bottom: 0;
+}
+
+#header-college-logo {
+  max-width: 20vw;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  #header-college-logo {
+    max-width: 8vw;
+  }
+}
+
+#college-name {
+  font-size: 4vw;
+}
+
+@media (min-width: 768px) {
+  #college-name {
+    font-size: 2vw;
+  }
+}
+
+.heading.sub {
+  font-size: 1.75vw;
+}
+
+@media (min-width: 768px) {
+  #trust-name {
+    font-size: 1.75vw;
+  }
+}
+
+@media (min-width: 768px) {
+  #department-name {
+    font-size: 1.75vw;
+  }
+}
+
+#main-content {
+}
+
+#scet-mission-statement {
+  font-size: 16px;
+}
+
+@media (min-width: 576px) {
+  #scet-mission-statement {
+    font-size: 20px;
+  }
+}
+
+#department-mission-statement {
+  font-size: 16px;
+}
+
+@media (min-width: 576px) {
+  #department-mission-statement {
+    font-size: 20px;
+  }
+}
+
+#about-the-department-heading {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+#about-the-department-content {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  #about-the-department-content {
+    font-size: 18px;
+  }
+}
+
+.navbar.navbar-dark.navbar-expand-md.sticky-top.bg-dark.navbar-style {
+  font-family: Montserrat, sans-serif;
+}
+
+#page-location {
+  font-family: Montserrat, sans-serif;
+}
+
+.body-style {
+  font-family: 'Duru Sans', sans-serif;
+}
+
+.mission-statement-style {
+  font-family: Lora, serif;
+  font-style: italic;
+}
+
+.mission-statement-footer-style {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+}
+
+#max-md-title h5 {
+  border-bottom: 1px solid rgba(0,0,0,0.24);
+  padding-bottom: 12px;
+  margin-top: 18px;
+}
+
+@media (min-width: 768px) {
+  .carousel-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+#max-md-title {
+  text-align: center;
+  display: initial;
+}
+
+@media (min-width: 768px) {
+  #max-md-title {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .carousel-style {
+    width: 100%!important;
+    margin-bottom: 5px;
+  }
+}
+
+#department-infrastructure li {
+  text-align: justify;
+}
+
+#department-infrastructure {
+  list-style-type: square;
+}
+
+#title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.academic-content-list-style li {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #343a40;
+}
+
+.academic-content-list-style {
+  list-style-type: none;
+  padding-left: 24px;
+}
+
+.info-content-title {
+  font-weight: 500;
+}
+
+.info-content.info-content-name {
+  font-weight: bold;
+  color: rgb(15,123,255);
+}
+
+.row.justify-content-center.align-items-center.faculty-data-row {
+  background-color: rgba(124,124,124,0.05);
+  margin-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.info-content {
+  margin: 0;
+  /*text-align: justify;*/
+}
+
+#page-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  .img-fluid.img-thumbnail {
+    margin: 10px;
+  }
+}
+
+.col-subject-style {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list-group-subject-title {
+  text-align: center;
+}
+
+.list-group-subject-code {
+  text-align: center;
+}
+
+.other-resources-list {
+  list-style-type: square;
+}
+
+#other-resources {
+  padding-left: 0px;
+}
+
+.multiple-item-list-style {
+  list-style: none;
+  padding-left: 0px;
+}
+
